@@ -147,6 +147,7 @@ LOCAL_C_INCLUDES_Debug := \
 	$(LOCAL_PATH)/third_party/libsrtp/config \
 	$(LOCAL_PATH)/third_party/libsrtp/srtp/include \
 	$(LOCAL_PATH)/third_party/libsrtp/srtp/crypto/include \
+	$(gyp_shared_intermediate_dir) \
 	$(PWD)/frameworks/wilhelm/include \
 	$(PWD)/bionic \
 	$(PWD)/external/stlport/stlport
@@ -262,6 +263,7 @@ LOCAL_C_INCLUDES_Release := \
 	$(LOCAL_PATH)/third_party/libsrtp/config \
 	$(LOCAL_PATH)/third_party/libsrtp/srtp/include \
 	$(LOCAL_PATH)/third_party/libsrtp/srtp/crypto/include \
+	$(gyp_shared_intermediate_dir) \
 	$(PWD)/frameworks/wilhelm/include \
 	$(PWD)/bionic \
 	$(PWD)/external/stlport/stlport
