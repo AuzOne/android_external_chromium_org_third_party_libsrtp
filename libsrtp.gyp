@@ -56,7 +56,7 @@
           'CPU_CISC',
         ],
       }],
-      ['target_arch=="mipsel"', {
+      ['target_arch=="mipsel" or target_arch=="mips64el"', {
         'defines': [
           'CPU_RISC',
         ],
@@ -98,7 +98,7 @@
             'CPU_CISC',
           ],
         }],
-        ['target_arch=="mipsel"', {
+        ['target_arch=="mipsel" or target_arch=="mips64el"', {
           'defines': [
             'CPU_RISC',
           ],
